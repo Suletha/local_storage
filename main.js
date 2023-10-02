@@ -1,5 +1,15 @@
+
+// localStorage.setItem('name','suletha')
+// localStorage.setItem('email','suletha@gmail.com')
+// console.log(localStorage.getItem('name'))
+// console.log(localStorage.getItem('email'))
+// localStorage.removeItem('name')
+
+  
+       
+
 const userForm = document.getElementById("my-form");
-my-form.addEventListener("submit", function (event) {
+userForm.addEventListener("submit", function (event) {
     event.preventDefault(); 
 
     const name = document.getElementById("name").value;
@@ -23,6 +33,3 @@ my-form.addEventListener("submit", function (event) {
     // You can also reset the form if needed
     my-form.reset();
 });
-
-  
-       
